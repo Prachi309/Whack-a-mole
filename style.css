@@ -7,7 +7,7 @@ body{
     
     color: rgb(118, 61, 40);
     text-align: center;
-    background-image: url('/images/mario-bg.jpg');
+    background-image: url('images/mario-bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -15,7 +15,7 @@ body{
 #board{
     width: 540px;
     height: 540px;
-   background: url("/images/soil.png");
+   background: url("images/soil.png");
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -27,7 +27,7 @@ body{
 #board div{
     width: 180px;
     height: 180px;
-    background-image: url("/images/pipe.png");
+    background-image: url("images/pipe.png");
     background-size: cover;
 }
 
